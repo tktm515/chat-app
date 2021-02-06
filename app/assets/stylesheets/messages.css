@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+}
+
+.side-box {
+  height:  100vh;
+  width: 300px;
+  background-color: #253141;
+}
+
+.top-side-box {
+  height: 100px;
+  padding: 0 20px;
+}
+
+.under-side-box {
+  height: calc(100vh - 100px);
+  background-color: #2f3e51;
+  padding: 0 20px;
+}
+
+
+
+.main-box {
+  width: calc(100vw - 300px);
+  background-color: #ffffff;
+}
+
+.top-main-box {
+  height: 100px;
+  padding: 0 40px;
+}
+
+.center-main-box {
+  height: calc(100vh - 100px - 90px);
+  background-color: #fafafa;
+  padding: 46px 40px 0;
+}
+
+.under-main-box {
+  height: 90px;
+  background-color: #dddddd;
+  padding: 20px 40px;
+}
+
